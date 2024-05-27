@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "name": "LinkedIn Pic Change | LGTM Assignment",
+    "description": "This extension changes the profile picture of posts on LinkedIn to a picture of a cat.",
+    "version": "1.0",
+    "permissions": ["activeTab"],
+    "content_scripts": [
+        {
+          "matches": ["https://www.linkedin.com/feed/"],
+          "js": ["index.js"]
+        }
+      ]
+}

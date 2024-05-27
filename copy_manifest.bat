@@ -1,0 +1,1 @@
+copy manifest.json extension
